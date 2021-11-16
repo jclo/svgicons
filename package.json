@@ -1,0 +1,50 @@
+{
+  "name": "@mobilabs/svgicons",
+  "version": "0.90.0",
+  "description": "A set of SVG Icons",
+  "main": "",
+  "bin": {},
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "dev": "gulp rundev",
+    "makedist": "gulp makedist",
+    "app": "gulp runapp",
+    "prepare": "husky install",
+    "doc": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jclo/svgicons.git"
+  },
+  "keywords": [
+    "SVG"
+  ],
+  "author": {
+    "name": "Mobilabs",
+    "email": "contact@mobilabs.fr",
+    "url": "http://www.mobilabs.fr"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jclo/svgicons/issues"
+  },
+  "homepage": "https://github.com/jclo/svgicons",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^6.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "husky": "^7.0.4",
+    "open": "^8.4.0",
+    "opener": "^1.5.2",
+    "@mobilabs/es6lib": "1.0.12"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false
+}
